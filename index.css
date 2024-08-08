@@ -100,7 +100,7 @@ nav {
 }
 
 .delivery-boy {
-  height: 8rem;
+  height: 12vh;
   width: 10vw;
   position: relative;
   left: 3vw;
@@ -109,6 +109,11 @@ nav {
   animation-iteration-count: infinite;
   transform: none;
 }
+
+.delivery-boy img {
+    height: 100%;
+    width: 100%;
+  }
 
 @keyframes move-div {
   0% {
@@ -138,10 +143,7 @@ nav {
 
 }
 
-.delivery-boy img {
-  height: 100%;
-  width: 100%;
-}
+
 
 section {
   /* margin-top: 15vh; */
