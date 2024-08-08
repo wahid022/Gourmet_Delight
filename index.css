@@ -1,7 +1,7 @@
 body {
   padding-left: 1vw;
-  width: 100%;
-  margin: -3.3vh;
+  width: 100vw;
+  margin: -2.8vh;
   font-family: sans-serif;
   font-size: 30px;
   background-color: #242526;
@@ -18,7 +18,7 @@ nav {
   );
   display: flex;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   justify-content: space-evenly;
 }
 
@@ -40,6 +40,7 @@ nav {
   background-image: url("./assets/restaurant.jpg");
 
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   padding-top: 1.2rem;
